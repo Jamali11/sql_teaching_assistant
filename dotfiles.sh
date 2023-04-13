@@ -45,6 +45,7 @@ error() {
     exit 1
 }
 
+
 link_file() {
     # subdir is the sub-directory where the config files are stored
     local subdir="$1"
